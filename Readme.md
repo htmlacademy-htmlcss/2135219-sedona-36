@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Kirill Kostykov (Hippo)](https://up.htmlacademy.ru/htmlcss/36/user/2135219).
-* Наставник: `Неизвестно`.
+* Наставник: `Ольга Тюлихова`. (https://htmlacademy.ru/profile/id523263)
 
 ---
 
