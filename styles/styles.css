@@ -45,7 +45,6 @@
     background-color: #ffffff;
     color:#000000;
     background-size: 100% auto;
-    height: 485px;
     background-repeat: no-repeat;
 }
 
@@ -176,7 +175,32 @@
     background-repeat: no-repeat;
 
 }
+/* Каталог страница */
+.subscribe-block-catalog{
+    text-align: center;
+    background-color: #ffffff;
 
+}
+
+.subscribe-description-catalog{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    background-color: #ffffff;
+    color:#000000;
+
+}
+
+.text-subscribe-catalog{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+
+/* Главная страница */
 .subscribe-description{
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
@@ -192,4 +216,198 @@
     font-size: 22px;
     line-height: 26px;
     color:#ffffff;
+}
+
+.number-phone{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.button-subscribe{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    background-color: #82B3D3;
+    color:#ffffff;
+    border: none;
+    text-transform: uppercase;
+
+
+}
+
+.email-form{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Остальное по каталогу */
+
+.main-inner{
+    background-image: url(../images/bg-section-filter.jpg);
+    background-color: #ffffff;
+    color:#000000;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+.inner-header-title {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #ffffff;
+
+}
+.catalog-filter-hotels{
+    color:#ffffff;
+    /* background-color: #000000; */
+}
+
+.breadcrumbs-link{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.catalog-filter-title{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+
+}
+
+.control-input{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button-apply{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #82B3D3;
+    color: #ffffff;
+    border: none;
+
+}
+.select-control{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+
+}
+
+.product-card-link{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.type-housing{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.product-card-price{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    text-align: right;
+
+}
+
+.product-card-booking-button{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-card-favourites-button{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #82B3D3;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.product-card-favourites-button-active{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #7DB54F;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rating{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+
+}
+
+.pagination-link{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color: #82B3D3;
+    text-decoration: none;
+    ;
+}
+
+.pagination-current{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+    background-color: #F2F2F2;
+
 }
