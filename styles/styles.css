@@ -20,6 +20,8 @@
     line-height: 24px;
     background-color: #ffffff;
     color:#000000;
+    margin: 0;
+    padding: 0;
 
   }
 
@@ -30,7 +32,7 @@
 }
 
 .navigation-link{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -40,32 +42,34 @@
     text-transform: uppercase;
 }
 
-.main-index{
-    background-image: url(../images/index-main.jpg);
+.main-index {
     background-color: #ffffff;
-    color:#000000;
+}
+
+.hero{
+    background-image: url(../images/index-main.jpg);
+    background-color: #000000;
+    color:#ffffff;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .caption-description {
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    background-color: #ffffff;
     color:#000000
 
 }
 
 .text-description{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    background-color: #ffffff;
     color:#333333
 }
 
@@ -75,7 +79,7 @@
 }
 
 .advantages-item{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -86,7 +90,7 @@
 }
 
 .advantages-item p{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -97,7 +101,7 @@
 }
 
 .advantages-item-excellence{
-    font-family: "PT Sans";
+    font-family: inherit;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -108,7 +112,7 @@
 }
 
 .advantages-item-excellence p{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -123,7 +127,7 @@
 }
 
 .service-title{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -133,7 +137,7 @@
 }
 
 .service-description{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -155,7 +159,7 @@
 }
 
 .button-search-hotels{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -178,22 +182,20 @@
 /* Каталог страница */
 .subscribe-block-catalog{
     text-align: center;
-    background-color: #ffffff;
 
 }
 
 .subscribe-description-catalog{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    background-color: #ffffff;
     color:#000000;
 
 }
 
 .text-subscribe-catalog{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -202,7 +204,7 @@
 
 /* Главная страница */
 .subscribe-description{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -211,7 +213,7 @@
 }
 
 .text-subscribe{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -219,7 +221,7 @@
 }
 
 .number-phone{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -230,7 +232,7 @@
 }
 
 .button-subscribe{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -243,7 +245,7 @@
 }
 
 .email-form{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -261,7 +263,7 @@
 }
 
 .inner-header-title {
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
@@ -274,7 +276,7 @@
 }
 
 .breadcrumbs-link{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -284,7 +286,7 @@
 }
 
 .catalog-filter-title{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -293,14 +295,14 @@
 }
 
 .control-input{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
 }
 
 .button-apply{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -311,7 +313,7 @@
 
 }
 .select-control{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -320,7 +322,7 @@
 }
 
 .product-card-link{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -330,7 +332,7 @@
 }
 
 .type-housing{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -338,7 +340,7 @@
 }
 
 .product-card-price{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -348,7 +350,7 @@
 }
 
 .product-card-booking-button{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -359,7 +361,7 @@
 }
 
 .product-card-favourites-button{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -371,7 +373,7 @@
 }
 
 .product-card-favourites-button-active{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -382,7 +384,7 @@
 }
 
 .rating{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -392,7 +394,7 @@
 }
 
 .pagination-link{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -403,7 +405,7 @@
 }
 
 .pagination-current{
-    font-family: "PT Sans", sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
