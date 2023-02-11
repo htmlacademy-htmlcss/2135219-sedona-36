@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <a class="button-search-hotels" href="#">Хочу сюда!</a>
+          <a class="navigation-link button-search-hotels" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -115,15 +116,16 @@
           <input type="text" value="9000 до">
         </fieldset>
         <label class="button-submit">
-          <input class="button" type="submit" value="Применить">
+          <input class="button-apply" type="submit" value="Применить">
         </label>
         <label class="button-reset">
           <input class="button" type="reset">
         </label>
       </form>
+    </section>
 
-
-      <h2>Найдено гостиниц: 38</h2>
+    <section>
+      <h2 class="caption-description">Найдено гостиниц: 38</h2>
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap">Сначала дешевые</option>
         <option value="expensive">Сначала ддорогие</option>
@@ -146,8 +148,8 @@
           </a>
           <span class="type-housing">Гостиница</span>
           <span class="product-card-price">от 4000 ₽</span>
-          <a class="product-card-booking button" href="#">Подробнее</a>
-          <a class="product-card-favourites button" href="#">В избранное</a> <!-- это кнопка -->
+          <a class="product-card-booking-button" href="#">Подробнее</a>
+          <a class="product-card-favourites-button" href="#">В избранное</a> <!-- это кнопка -->
           <div>
             <span class="visually-hidden">Четрые звезды
               <img class="star-rating-four" src="#" alt="Рейтинг гостиницы 4 звезды">
@@ -162,8 +164,8 @@
           </a>
           <span class="type-housing">Гостиница</span>
           <span class="product-card-price">от 5000 ₽</span>
-          <a class="product-card-booking button" href="#">Подробнее</a>
-          <a class="product-card-favourites button" href="#">В избранном</a>
+          <a class="product-card-booking-button" href="#">Подробнее</a>
+          <a class="product-card-favourites-button product-card-favourites-button-active" href="#">В избранном</a>
           <div>
             <span class="visually-hidden">Четрые звезды
               <img class="star-rating-four" src="#" alt="Рейтинг гостиницы 4 звезды">
@@ -178,8 +180,8 @@
           </a>
           <span class="type-housing">Гостиница</span>
           <span class="product-card-price">от 2 500 ₽</span>
-          <a class="product-card-booking button" href="#">Подробнее</a>
-          <a class="product-card-favourites button" href="#">В избранное</a>
+          <a class="product-card-booking-button" href="#">Подробнее</a>
+          <a class="product-card-favourites-button" href="#">В избранное</a>
           <div>
             <span class="visually-hidden">Три звезды
               <img class="star-rating-four" alt="Рейтинг гостиницы 3 звезды">
@@ -194,8 +196,8 @@
           </a>
           <span class="type-housing">Гостиница</span>
           <span class="product-card-price">от 1500 ₽</span>
-          <a class="product-card-booking button" href="#">Подробнее</a>
-          <a class="product-card-favourites button" href="#">В избранное</a>
+          <a class="product-card-booking-button" href="#">Подробнее</a>
+          <a class="product-card-favourites-button" href="#">В избранное</a>
           <div>
             <span class="visually-hidden">Две звезды
               <img class="star-rating-four" alt="Рейтинг гостиницы 2 звезды">
@@ -225,16 +227,16 @@
         </li>
       </ol>
     </section>
-    <section class="subscribe-block">
-      <h2>Подпишитесь на рассылку</h2>
-      <p>Только полезная информация и никакого спама, <br>
+    <section class="subscribe-block-catalog">
+      <h2 class="subscribe-description-catalog">Подпишитесь на рассылку</h2>
+      <p class="text-subscribe-catalog">Только полезная информация и никакого спама, <br>
         честное бойскаутское!</p>
       <form class="subscription-form" method="post" action="#">
         <label>
-          <input type="email" name="email" value="Ваш e-mail">
+          <input class="email-form" type="email" name="email" value="Ваш e-mail">
         </label>
         <label>
-          <input type="submit" value="подписаться">
+          <input class="button-subscribe" type="submit" value="подписаться">
         </label>
       </form>
     </section>
