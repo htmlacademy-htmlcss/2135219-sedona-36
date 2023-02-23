@@ -22,6 +22,7 @@
 
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
     object-fit: contain;
@@ -64,69 +65,57 @@ img {
 
 .main-header{
     display: flex;
+    flex-wrap: wrap;
     background-color: #ffffff;
     color: #000000;
-    padding: 0;
-    margin: 0;
-    height: 64px;
+    padding-left: 70px;
+    padding-right: 70px;
 
 }
 
 .main-header-logo{
-    padding-left: 70px;
-    padding-right: 28px;
-    z-index: 1;
+
 }
 
 .navigation {
-    display: block;
     display: flex;
+
+
 }
 
-.navigation-item{
-    padding: 0;
-}
 
 .navigation-list{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
     list-style-type: none;
 }
 
+
 .navigation-list-menu{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
-    width: 400px;
+    padding: 0;
+    margin: 0 285px 0 0;
 
 }
 
-
-.navigation-user{
+.navigation-list-user{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0;
-    width: 400px;
+    padding: 0;
 
 }
 
-.navigation-item-user{
-    padding: 20px 16px 20px 16px;
+.navigation-item{
+
+
 }
 
-.navigation-user .navigation-link {
-    min-width: 18px;
-    min-height: 17px;
+.navigation-item-menu{
+
+
 }
 
 
 .navigation-link{
     display: block;
-    padding: 20px 16px 20px 16px;
     font-family: inherit;
     font-weight: 700;
     font-size: 20px;
@@ -135,6 +124,40 @@ img {
     color: inherit;
     text-decoration: none;
 }
+
+.navigation-link-menu{
+    padding: 20px 26px 20px 16px;
+
+}
+
+
+
+.navigation-user{
+
+
+}
+
+.navigation-item-user{
+
+}
+
+.navigation-link-user{
+
+
+}
+
+
+
+
+
+.navigation-user .navigation-link {
+    min-width: 18px;
+    min-height: 17px;
+}
+
+
+
+
 
 .button-search-hotels{
     font-family: inherit;
@@ -176,12 +199,14 @@ img {
     color:#ffffff;
     background-size: 100% auto;
     background-repeat: no-repeat;
+
+    padding: 51px 50px 82px 50px;
+    position: relative;
 }
 
 .hero-img{
     display: block;
     margin: 0 auto;
-    padding-top: 51px;
 
 }
 
@@ -241,7 +266,7 @@ img {
 }
 
 .caption-description-heading{
-    margin-left: 70px;
+    margin-left: 0;
 
 }
 
@@ -365,6 +390,7 @@ img {
 
 .service{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -434,6 +460,7 @@ img {
 }
 
 .button-search-hotels-promo{
+    display: inline-block;
     font-family: inherit;
     font-weight: 700;
     font-size: 20px;
@@ -486,9 +513,20 @@ img {
 
 /* ФУТЕР */
 
+
+.main-footer{
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 81px;
+    padding-right: 70px;
+
+}
+
+
 .social-list{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 
 }
 
@@ -496,21 +534,21 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 0;
-    margin-left: 70px;
-    margin-top: 45px;
-    margin-bottom: 35px;
+    padding: 45px 41px 35px 0;
+    margin: 0;
     list-style-type: none;
 }
 
 .contacts-phone{
-    margin-top: 45px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+
 }
 
 .link-logo-htmlacademy{
     display: block;
-    margin-top: 48px;
-    margin-right: 70px;
+    padding: 48px 0 38px 41px;
+    margin: 0;
 
 }
 
@@ -518,11 +556,19 @@ img {
 
 /* Каталог страница  - Фильтр Гостиниц */
 
+
 .main-catalog-wrapper{
+    background-image: url(../images/bg-section-filter.jpg);
+    background-color: #ffffff;
+    color:#000000;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     margin: 0;
-    padding: 35px 70px 70px 70px;
+    padding: 35px 70px 0 70px;
+
 
 }
+
 
 .inner-header{
     margin: 0;
@@ -684,9 +730,9 @@ img {
 
 /* ГЛАВНАЯ КАТОЛОГ */
 
-.main-catalog{
+{
     margin: 0;
-    padding: 0;
+    padding: 56.5px 90px 60px 90px;
 }
 
 
@@ -768,19 +814,6 @@ img {
 }
 
 /* Остальное по каталогу */
-
-.main-inner{
-    background-image: url(../images/bg-section-filter.jpg);
-    background-color: #ffffff;
-    color:#000000;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-
-
-}
-
-
-
 
 
 
