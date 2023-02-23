@@ -98,6 +98,8 @@ img {
 
 .navigation-list-user{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 0;
 
@@ -309,8 +311,23 @@ img {
     width: 400px;
     min-height: 385px;
     margin: 0;
-    padding: 0;
     text-align: center;
+
+}
+
+.advantages-title{
+    margin: 0;
+}
+
+.advantages-item-container{
+    width: 230px;
+    min-height: 181px;
+    margin: 102px 85px 102px 85px;
+
+}
+
+.advantages-description{
+    margin: 0;
 
 }
 
@@ -409,6 +426,12 @@ img {
 
 }
 
+.service-item-container{
+    width: 230px;
+    min-height: 223px;
+    margin: 81px 85px 81px 85px;
+}
+
 .service-title{
     font-family: inherit;
     font-weight: 700;
@@ -416,6 +439,7 @@ img {
     line-height: 28px;
     text-transform: uppercase;
     color: #000000;
+    margin: 0;
 
 }
 
@@ -426,6 +450,7 @@ img {
     line-height: 21px;
     text-transform: none;
     color: #333333;
+    margin: 0;
 
 }
 
@@ -498,16 +523,25 @@ img {
 
 }
 
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+}
+
 .email-form{
     width: 452px;
     height: 52px;
     padding: 14px 345px 14px 20px;
+    border: none;
+    border-radius: 4px 0 0 4px;
 
 
 }
 .button-subscribe{
     width: 232px;
     height: 52px;
+    padding: 0;
+    border-radius: 0 4px 4px 0;
 
 }
 
