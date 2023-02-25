@@ -242,7 +242,19 @@ img {
 
 .caption-description-wrapper{
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    background-color: #ffffff;
 }
+
+.caption-description-wrapper .button {
+    width: 48px;
+    height: 48px;
+
+}
+
 
 .comfort{
     padding: 64px 347.5px;
@@ -264,11 +276,11 @@ img {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    color:#333333
+    color:#333333;
 }
 
 .caption-description-heading{
-    margin-left: 0;
+    margin: 0;
 
 }
 
@@ -279,8 +291,10 @@ img {
 
 .choice-of-hotels{
     list-style-type: none;
-    padding: 40px 70px;
+    padding: 0;
+    /* 0 70px 40px 70px; */
     margin: 0;
+    background-color: #ffffff;
 }
 
 .choice-of-hotels-item{
@@ -604,6 +618,7 @@ img {
 }
 
 
+
 .inner-header{
     margin: 0;
 
@@ -623,6 +638,9 @@ img {
 .breadcrumbs{
     display: flex;
     margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #ffffff;
 }
 
 .breadcrumbs-link{
@@ -630,8 +648,9 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color: #ffffff;
+    color: inherit;
     text-decoration: none;
+    margin-left: 28px;
 
 }
 
@@ -858,9 +877,17 @@ img {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #333333;
+    color:rgba(51, 51, 51, 1);
+    border: 2px solid rgba(229, 229, 229, 1);
+    border-radius: 4px;
+    padding: 14px 131px 14px 20px;
+    min-width: 292px;
+    height: 49px;
+
 
 }
+
+
 
 .product-card-link{
     font-family: inherit;
@@ -934,7 +961,33 @@ img {
 
 }
 
+
+/* ПАГИНАЦИЯ */
+
+.pagination-container{
+    display: flex;
+    background-color: #ffffff;
+    padding: 80px 660px 60px 70px;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.pagination-item:not(:last-child){
+    margin-right: 8px;
+
+}
+
+
 .pagination-link{
+    display: block;
+    box-sizing: border-box;
     font-family: inherit;
     font-weight: 700;
     font-size: 20px;
@@ -942,7 +995,22 @@ img {
     color: #ffffff;
     background-color: #82B3D3;
     text-decoration: none;
-    ;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 11.36px 24.55px 12.64px 23.45px;
+
+}
+
+.pagination-current{
+    display: block;
+    box-sizing: border-box;
+    background-color:rgba(242, 242, 242, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 11.36px 24.55px 12.64px 23.45px;
+
 }
 
 .pagination-current{
