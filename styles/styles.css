@@ -74,11 +74,14 @@ img {
 }
 
 .main-header-logo{
+    flex-shrink: 0;
+
 
 }
 
 .navigation {
     display: flex;
+    flex-grow: 1;
 
 
 }
@@ -92,7 +95,7 @@ img {
 .navigation-list-menu{
     display: flex;
     padding: 0;
-    margin: 0 285px 0 0;
+    margin: 0;
 
 }
 
@@ -100,7 +103,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
 
 }
@@ -162,6 +165,7 @@ img {
 
 
 .button-search-hotels{
+    display: block;
     font-family: inherit;
     font-weight: 700;
     font-size: 20px;
@@ -174,6 +178,7 @@ img {
     height: 36px;
     text-align: center;
     border-radius: 4px;
+    margin-left: auto;
 }
 
 
@@ -243,8 +248,7 @@ img {
 .caption-description-wrapper{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 70px 0 70px;
     margin: 0;
     background-color: #ffffff;
 }
@@ -285,21 +289,43 @@ img {
 }
 
 .choice-of-hotels-wrapper{
-    display: flex;
+    background-color: #ffffff;
 
 }
 
 .choice-of-hotels{
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 20px;
+    margin: 40px 70px 40px 70px;
     list-style-type: none;
     padding: 0;
-    /* 0 70px 40px 70px; */
-    margin: 0;
     background-color: #ffffff;
 }
 
 .choice-of-hotels-item{
-    width: 1060px;
+    padding: 20px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 4px;
+
 }
+
+.product-card-title{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+
+}
+
+.product-card-info{
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    gap: 20px;
+}
+
+
+
 
 /* БЛОК ПРЕИМУЩЕСТВ */
 
@@ -315,6 +341,7 @@ img {
 
 
 .advantages-item{
+    display: block;
     font-family: inherit;
     font-weight: 700;
     font-size: 24px;
@@ -325,6 +352,7 @@ img {
     width: 400px;
     min-height: 385px;
     margin: 0;
+    padding: 112.5px 85px 112.5px 85px;
     text-align: center;
 
 }
@@ -333,12 +361,6 @@ img {
     margin: 0;
 }
 
-.advantages-item-container{
-    width: 230px;
-    min-height: 181px;
-    margin: 102px 85px 102px 85px;
-
-}
 
 .advantages-description{
     margin: 0;
@@ -347,6 +369,7 @@ img {
 
 .advantages-item-image{
     width: 800px;
+    padding: 0;
 
 }
 
@@ -380,7 +403,6 @@ img {
     width: 400px;
     min-height: 385px;
     margin: 0;
-    padding: 0;
 }
 
     .advantages-item-excellence-gray{
@@ -437,14 +459,10 @@ img {
     width: 400px;
     min-height: 385px;
     text-align: center;
+    padding: 81px 85px 81px 85px ;
 
 }
 
-.service-item-container{
-    width: 230px;
-    min-height: 223px;
-    margin: 81px 85px 81px 85px;
-}
 
 .service-title{
     font-family: inherit;
@@ -545,7 +563,7 @@ img {
 .email-form{
     width: 452px;
     height: 52px;
-    padding: 14px 345px 14px 20px;
+    padding: 14px 20px 14px 20px;
     border: none;
     border-radius: 4px 0 0 4px;
 
@@ -603,6 +621,7 @@ img {
 
 
 /* Каталог страница  - Фильтр Гостиниц */
+
 
 
 .main-catalog-wrapper{
@@ -926,6 +945,9 @@ img {
     background-color: #756157;
     text-align: center;
     text-decoration: none;
+    padding: 8px 26px 8px 26px;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 
 .product-card-favourites-button{
@@ -937,6 +959,9 @@ img {
     background-color: #82B3D3;
     text-align: center;
     text-decoration: none;
+    padding: 8px 20px 8px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
 
 }
 
@@ -949,6 +974,7 @@ img {
     background-color: #7DB54F;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .rating{
@@ -958,6 +984,10 @@ img {
     line-height: 20px;
     color: #333333;
     text-align: center;
+    background: rgba(242, 242, 242, 1);
+    padding: 9px 22px 8px 23px;
+    border-radius: 4px;
+
 
 }
 
