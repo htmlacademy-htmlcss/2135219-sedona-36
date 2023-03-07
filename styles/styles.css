@@ -22,12 +22,28 @@
 
 
 img {
-    display: block;
     max-width: 100%;
     height: auto;
     object-fit: contain;
 
   }
+
+  .button {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+
 
   html{
     min-height: 100%;
@@ -134,24 +150,6 @@ img {
     padding: 20px 26px 20px 16px;
 
 }
-
-
-
-.navigation-user{
-
-
-}
-
-.navigation-item-user{
-
-}
-
-.navigation-link-user{
-
-
-}
-
-
 
 
 
@@ -304,11 +302,21 @@ img {
 }
 
 .choice-of-hotels-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 20px;
     border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 4px;
 
 }
+
+.choice-of-hotels-item .button {
+    min-width: 140px;
+  }
+
+
 
 .product-card-title{
     display: block;
@@ -317,13 +325,6 @@ img {
     width: 100%;
 
 }
-
-.product-card-info{
-    display: grid;
-    grid-template-columns: repeat(2, 140px);
-    gap: 20px;
-}
-
 
 
 
@@ -537,7 +538,7 @@ img {
 
 .subscribe-block{
     text-align: center;
-    background-image: url(../images/bg-section-subscription.jpg);
+    background-image: url(../images/bckgrnd-section-subscription.jpg);
     background-size: 100% auto;
     background-color: #000000;
     background-repeat: no-repeat;
@@ -625,7 +626,7 @@ img {
 
 
 .main-catalog-wrapper{
-    background-image: url(../images/bg-section-filter.jpg);
+    background-image: url(../images/bckgrnd-section-subscription.jpg);
     background-color: #ffffff;
     color:#000000;
     background-size: 100% auto;
@@ -779,9 +780,6 @@ img {
 
 }
 
-.button-submit{
-
-}
 
 
 .button-apply{
@@ -902,8 +900,6 @@ img {
     padding: 14px 131px 14px 20px;
     min-width: 292px;
     height: 49px;
-
-
 }
 
 
@@ -915,8 +911,13 @@ img {
     line-height: 28px;
     color: #000000;
     text-decoration: none;
+    width: 100%;
 
 }
+
+.product-card-image {
+    display: block;
+  }
 
 .type-housing{
     font-family: inherit;
@@ -924,6 +925,8 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    width: 50%;
+    margin: 0 0 20px 0;
 }
 
 .product-card-price{
@@ -933,8 +936,23 @@ img {
     line-height: 21px;
     color: #333333;
     text-align: right;
+    width: 50%;
+    margin: 0 0 20px 0;
 
 }
+
+.star-rating{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 16px;
+    min-height: 37px;
+
+}
+
+.star-rating img {
+    margin-right: 6px;
+  }
 
 .product-card-booking-button{
     font-family: inherit;
@@ -987,6 +1005,7 @@ img {
     background: rgba(242, 242, 242, 1);
     padding: 9px 22px 8px 23px;
     border-radius: 4px;
+    width: 140px;
 
 
 }
