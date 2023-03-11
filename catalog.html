@@ -29,6 +29,11 @@
           <ul class="navigation-list navigation-list-user">
             <li class="navigation-item navigation-item-user">
               <a class="navigation-link navigation-link-user" href="#">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M19.5 18.0083L15.8 14.3287C16.8 13.0359 17.5 11.3453 17.5 9.4558C17.5 5.08011 13.9 1.5 9.5 1.5C5.1 1.5 1.5 5.17956 1.5 9.55525C1.5 13.9309 5.1 17.511 9.5 17.511C11.3 17.511 13 16.9144 14.4 15.8204L18.1 19.5L19.5 18.0083ZM9.5 15.5221C6.2 15.5221 3.5 12.837 3.5 9.55525C3.5 6.27348 6.2 3.5884 9.5 3.5884C12.8 3.5884 15.5 6.27348 15.5 9.55525C15.5 12.837 12.8 15.5221 9.5 15.5221Z"
+                    fill="black" />
+                </svg>
                 <span class="visually-hidden">
                   Поиск
                 </span>
@@ -36,13 +41,19 @@
             </li>
             <li class="navigation-item navigation-item-user">
               <a class="navigation-link navigation-link-user" href="#">
+                <svg class="navigation-icon" aria-hidden="true" focusable="false" width="20" height="20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.9 17a1 1 0 0 1-.8-.4l-7-7.9A5.4 5.4 0 0 1 5.5 0C6.8 0 8 .5 9 1.3a5.5 5.5 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5L9 14.4l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 3.7 0 0 0-2.7-1.3 3.3 3.3 0 0 0-3.3 3.3c-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z"
+                    fill="#000" />
+                </svg>
                 <span class="visually-hidden">
                   Избранное
                 </span>
               </a>
             </li>
             <li class="navigation-item navigation-item-user">
-              <a class="navigation-link navigation-link-user button-search-hotels" href="#">Хочу сюда!</a>
+              <a class="navigation-link button-search-hotels" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -55,7 +66,15 @@
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link visually-hidden" href="#">Главная</a>
+                <a class="breadcrumbs-link" href="#">
+                  <svg lass="breadcrumbs-logo-home" width="13" height="15" viewBox="0 0 13 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z"
+                      fill="white" />
+                    <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z" fill="white" />
+                  </svg>
+                </a>
               </li>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link">Гостиницы</a>
@@ -143,15 +162,64 @@
               <option value="expensive">Сначала дорогие</option>
               <option value="popular">Популярные</option>
             </select>
-            <a href="#" class="button button-table">
-              <span class="visually-hidden">Показать таблицу</span>
-            </a>
-            <a href="#" class="button button-dontnow">
-              <span class="visually-hidden">Показать слайд-шоу</span>
-            </a>
-            <a href="#" class="button button-list">
-              <span class="visually-hidden">Показать список</span>
-            </a>
+            <div class="show-block">
+              <a href="#" class="button button-table">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33548_2035)">
+                    <path d="M20 17H16V23H20V17Z" fill="black" />
+                    <path d="M32 17H28V23H32V17Z" fill="black" />
+                    <path d="M26 17H22V23H26V17Z" fill="black" />
+                    <path d="M20 25H16V31H20V25Z" fill="black" />
+                    <path d="M32 25H28V31H32V25Z" fill="black" />
+                    <path d="M26 25H22V31H26V25Z" fill="black" />
+                  </g>
+                  <rect x="1" y="1" width="46" height="46" rx="3" stroke="black" stroke-width="2" />
+                  <defs>
+                    <clipPath id="clip0_33548_2035">
+                      <rect width="16" height="14" fill="white" transform="translate(16 17)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="visually-hidden">Показать таблицу</span>
+              </a>
+              <a href="#" class="button button-dontnow">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33548_2210)">
+                    <path d="M32 29H16V31H32V29Z" fill="black" />
+                    <path d="M30 19V25H18V19H30ZM32 17H16V27H32V17Z" fill="black" />
+                  </g>
+                  <rect x="1" y="1" width="46" height="46" rx="3" stroke="#E5E5E5" stroke-width="2" />
+                  <defs>
+                    <clipPath id="clip0_33548_2210">
+                      <rect width="16" height="14" fill="white" transform="translate(16 17)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="visually-hidden">Показать слайд-шоу</span>
+              </a>
+              <a href="#" class="button button-list">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33548_2388)">
+                    <path d="M18 17H16V19H18V17Z" fill="black" />
+                    <path d="M32 17H20V19H32V17Z" fill="black" />
+                    <path d="M18 21H16V23H18V21Z" fill="black" />
+                    <path d="M32 21H20V23H32V21Z" fill="black" />
+                    <path d="M18 25H16V27H18V25Z" fill="black" />
+                    <path d="M32 25H20V27H32V25Z" fill="black" />
+                    <path d="M18 29H16V31H18V29Z" fill="black" />
+                    <path d="M32 29H20V31H32V29Z" fill="black" />
+                  </g>
+                  <rect x="1" y="1" width="46" height="46" rx="3" stroke="#E5E5E5" stroke-width="2" />
+                  <defs>
+                    <clipPath id="clip0_33548_2388">
+                      <rect width="16" height="14" fill="white" transform="translate(16 17)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+                <span class="visually-hidden">Показать список</span>
+              </a>
+            </div>
           </div>
           <div class="choice-of-hotels-wrapper">
             <ul class="choice-of-hotels">
@@ -271,17 +339,17 @@
         <section class="social-list">
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="button-icons" href="./images/vk-logo-icon.svg">
+              <a class="footer-social-link footer-social-vk" href="./images/vk-logo-icon.svg">
                 <span class="visually-hidden">Вконтакте</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button-icons" href="#">
+              <a class="footer-social-link footer-social-tg" href="#">
                 <span class="visually-hidden">Телеграм</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button-icons" href="#">
+              <a class="footer-social-link footer-social-youtube" href="#">
                 <span class="visually-hidden">Ютуб</span>
               </a>
             </li>
