@@ -764,7 +764,7 @@ img {
 
 }
 .footer-social-link:hover {
-    color: #00B3FF;
+    color: #68A2CA;
 
 }
 .footer-social-link:active {
@@ -805,13 +805,14 @@ img {
 
 }
 
-.link-logo-htmlacademy:hover{
+.logo-html-academy:hover{
     color: rgba(117, 97, 87, 1);
 }
 
-.link-logo-htmlacademy:active{
+.logo-html-academy:active{
     color: red;
 }
+
 
 
 
@@ -932,8 +933,14 @@ img {
     margin:0;
     padding:0;
     list-style-type: none;
+}
 
 
+
+.text-price{
+    margin-top: 32px;
+    width: 143px;
+    padding: 12px 20px 12px 20px;
 }
 
 
@@ -963,7 +970,7 @@ img {
     height: 20px;
     background-color: #ffffff;
     border-radius: 4px;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     position: absolute;
     top: -1px;
     left: 0;
@@ -988,6 +995,42 @@ img {
   }
 
 
+  .control-input + label {
+    position: relative;
+    padding-left: 37px;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.control-input-radio + label:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    /* opacity: 0.2; */
+    position: absolute;
+    top: -3px;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  .control-input-radio:checked + label:before {
+    opacity: 1;
+  }
+
+
+  .control-input-radio:checked + label:after {
+    content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-image: url(../images/point-radio.svg);
+  position: absolute;
+  }
 
 
 
@@ -1003,14 +1046,18 @@ img {
 }
 
 .catalog-filter-group-cost{
+    display: flex;
+    width: 288px;
     border: none;
-    margin: 0;
+    margin-right: 70px;
+    padding: 0;
 }
 
 
 .button-filter{
     border: none;
     margin: 0;
+    padding: 0;
 
 }
 
