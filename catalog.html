@@ -11,7 +11,7 @@
   <body>
     <div class="page-container">
       <header class="main-header">
-        <a class="main-header-logo" href="#">
+        <a class="main-header-logo" href="index.html">
           <img
             src="images/main-logo-sedona.svg"
             width="140"
@@ -22,7 +22,7 @@
         <nav class="navigation">
           <ul class="navigation-list navigation-list-menu">
             <li class="navigation-item navigation-item-menu">
-              <a class="navigation-link navigation-link-menu" href="#"
+              <a class="navigation-link navigation-link-menu" href="index.html"
                 >Главная</a
               >
             </li>
@@ -97,7 +97,7 @@
                   href="index.html"
                 >
                   <svg
-                    lass="breadcrumbs-logo-home"
+                    class="breadcrumbs-logo-home"
                     width="13"
                     height="15"
                     viewBox="0 0 13 15"
@@ -113,6 +113,7 @@
                       fill="white"
                     />
                   </svg>
+                  <span class="visually-hidden">Вернуться на главную.</span>
                 </a>
               </li>
               <li class="breadcrumbs-item">
@@ -274,9 +275,11 @@
                       type="submit"
                       value="Применить"
                     />
+                    <span class="visually-hidden">применить</span>
                   </label>
                   <label class="button-reset">
                     <input class="button" type="reset" />
+                    <span class="visually-hidden">сброс</span>
                   </label>
                 </fieldset>
               </fieldset>
@@ -563,15 +566,17 @@
             method="post"
           >
             <label>
+              <span class="visually-hidden">Введите email </span>
               <input
                 class="email-form"
                 type="email"
                 name="email"
-                value="Ваш e-mail"
+                placeholder="Ваш e-mail"
                 required
               />
             </label>
             <label>
+              <span class="visually-hidden">Подписаться </span>
               <input
                 class="button-subscribe"
                 type="submit"
