@@ -149,7 +149,7 @@ body {
   text-decoration: none;
 }
 
-.navigation-link-menu:hover::before,
+
 .navigation-link-current::before {
   content: "";
   position: absolute;
@@ -904,8 +904,11 @@ body {
   border: none;
 }
 
-.text-price:focus{
+.text-price:active{
     outline: 2px solid rgba(0, 0, 0, 1);
+}
+.text-price:focus{
+    outline: 3px solid rgba(131, 179, 211, 1);
 }
 
 
@@ -997,11 +1000,6 @@ body {
     opacity: 0.2;
   }
 
-/* .control-input:hover{
-    border: none;
-    outline: 2px solid rgba(0, 0, 0, 1);;
-} */
-
 
 
 .control-input + label {
@@ -1019,6 +1017,13 @@ body {
 .control-input:active + label {
   opacity: 0.3;
 }
+
+.control-input:focus + label:before {
+    outline: 3px solid #83b3d3;
+  }
+  .control-input:focus + label::after {
+    outline: none;
+  }
 
 
 .control-input + label:before {
@@ -1527,8 +1532,8 @@ body {
   border: 3px solid #000;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.auth-form-field::-webkit-outer-spin-button,
+.auth-form-field::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
@@ -1636,7 +1641,7 @@ input::-webkit-inner-spin-button {
   color: #000;
 }
 
-input[type="number"] {
+.auth-form-field {
   -moz-appearance: textfield;
 }
 
